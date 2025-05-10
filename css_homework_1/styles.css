@@ -2,7 +2,7 @@
   --main-blue-color: #2b7fff;
   --main-dark-color: #011c44;
   --secondary-dark-color: #4a4a4a;
-  --main-light-color: #fff;
+  --color-footer-light: #fff;
 }
 
 ul {
@@ -38,7 +38,7 @@ body {
   background-color: transparent;
 }
 
-/* Hero */
+/* Sections */
 
 .section1-title {
   color: var(--main-blue-color);
