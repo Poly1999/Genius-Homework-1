@@ -1,0 +1,65 @@
+:root {
+  --main-blue-color: #2b7fff;
+  --main-dark-color: #011c44;
+  --secondary-dark-color: #4a4a4a;
+  --main-light-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Base */
+
+body {
+  color: var(--main-dark-color);
+}
+
+/* Links */
+
+.link {
+  color: var (var(--main-dark-color));
+}
+
+.link:hover {
+  color: var(--main-blue-color);
+}
+
+/* Button */
+.button {
+  color: var(--main-light-color);
+  background-color: var(--main-blue-color);
+  border: 2px solid var(--main-blue-color);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--main-blue-color);
+  background-color: transparent;
+}
+
+/* Hero */
+
+.section1-title {
+  color: var(--main-blue-color);
+}
+
+.section1-subtitle {
+  color: var(--secondary-dark-color);
+}
+
+h2 .accent-section1 {
+  color: var(--main-blue-color);
+}
+
+h2 .accent-section3 {
+  color: var(--main-blue-color);
+}
+
+h2 .accent-section4 {
+  color: var(--main-blue-color);
+}
+
+h2 .accent-section5 {
+  color: var(--main-blue-color);
+}

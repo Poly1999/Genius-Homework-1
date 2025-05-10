@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty Zone</title>
+    <link rel="stylesheet" href="./css_homework_1/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="index.html">
           <img
             src="./image_homework_1/logobeautyzone.svg"
             alt="Logo Beauty Zone"
           />
         </a>
         <ul>
-          <li><a href="#about">Про нас</a></li>
-          <li><a href="#why-people-choose-us">Чому ми</a></li>
-          <li><a href="#our-procedures">Наші процедури</a></li>
-          <li><a href="#contacts">Контакти</a></li>
+          <li><a class="link" href="#about">Про нас</a></li>
+          <li><a class="link" href="#why-people-choose-us">Чому ми</a></li>
+          <li><a class="link" href="#our-procedures">Наші процедури</a></li>
+          <li><a class="link" href="#contacts">Контакти</a></li>
           <li>
             <a href="+380960000007"
               ><img src="./image_homework_1/icon_tel.svg" alt="icon for tel" />
@@ -47,12 +48,16 @@
     <main>
       <section>
         <p>Косметологічна клініка</p>
-        <h1 lang="en">Beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <h1 class="section1-title" lang="en">Beauty zone</h1>
+        <button class="button" type="button">Замовити дзвінок</button>
+        <p class="section1-subtitle">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="about">
-        <h2>Перевтілюйтесь в beauty zone!</h2>
+        <h2>
+          Перевтілюйтесь в <span class="accent-section1">Beauty Zone!</span>
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
@@ -73,7 +78,7 @@
         />
       </section>
       <section id="why-people-choose-us">
-        <h2>Чому люди обирають нас</h2>
+        <h2>Чому люди <span class="accent-section3">обирають нас</span></h2>
         <ul>
           <li>
             <h3>
@@ -114,7 +119,7 @@
         </ul>
       </section>
       <section id="our-procedures">
-        <h2>Наші процедури</h2>
+        <h2>Наші <span class="accent-section4">процедури</span></h2>
         <ul>
           <li>
             <article>
@@ -143,7 +148,7 @@
         </ul>
       </section>
       <section id="contacts">
-        <h2>Як нас знайти</h2>
+        <h2>Як нас <span class="accent-section5">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.475609857434!2d30.772648477023242!3d50.50671678331028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2sTarasa%20Shevchenka%20St%2C%205%2C%20Brovary%2C%20Kyivs&#39;ka%20oblast%2C%20Ukraine%2C%2007400!5e0!3m2!1sen!2sus!4v1746666359437!5m2!1sen!2sus"
           width="605"
