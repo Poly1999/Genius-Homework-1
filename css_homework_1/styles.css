@@ -63,3 +63,18 @@ h2 .accent-section4 {
 h2 .accent-section5 {
   color: var(--main-blue-color);
 }
+
+/* Footer */
+
+.footer-background {
+  background-color: var(--main-dark-color);
+  color: var(--color-footer-light);
+}
+
+.footer {
+  color: var(--color-footer-light);
+}
+
+.footer-1 {
+  color: var(--color-footer-light);
+}
