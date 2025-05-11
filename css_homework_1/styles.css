@@ -19,7 +19,7 @@ body {
 /* Links */
 
 .link {
-  color: var (var(--main-dark-color));
+  color: var(--main-dark-color);
 }
 
 .link:hover {
