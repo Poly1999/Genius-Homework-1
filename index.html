@@ -8,60 +8,71 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
-          <a href="index.html">
-            <img src="./image/logobeautyzone.svg" alt="Logo Beauty Zone" />
+  <header>
+  <div class="container">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="./image/logobeautyzone.svg" alt="Logo Beauty Zone" />
+      </a>
+
+      <nav class="nav-menu">
+        <ul class="header-menu">
+          <li><a class="link" href="#about">Про нас</a></li>
+          <li><a class="link" href="#why-people-choose-us">Чому ми</a></li>
+          <li><a class="link" href="#our-procedures">Наші процедури</a></li>
+          <li><a class="link" href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <ul class="header-contacts">
+        <li>
+          <a href="tel:+380960000007">
+            <img src="./image/icon_tel.svg" alt="Телефон" />
           </a>
-          <ul>
-            <li><a class="link" href="#about">Про нас</a></li>
-            <li><a class="link" href="#why-people-choose-us">Чому ми</a></li>
-            <li><a class="link" href="#our-procedures">Наші процедури</a></li>
-            <li><a class="link" href="#contacts">Контакти</a></li>
-            <li>
-              <a href="+380960000007"
-                ><img src="./image/icon_tel.svg" alt="icon for tel" />
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./image/facebook_icon.svg" alt="icon for facebook" />
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="./image/instagram_icon.svg"
-                  alt="icon for instagram"
-                />
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./image/facebook_icon.svg" alt="Facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./image/instagram_icon.svg" alt="Instagram" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
     <main>
       <section class="section-title">
         <div class="container">
-          <p>Косметологічна клініка</p>
-          <h1 class="section1-title" lang="en">Beauty zone</h1>
-          <button class="button" type="button">Замовити дзвінок</button>
+        <div class="section-1-container">
+            <div class="title-container">
+              <p>Косметологічна клініка</p>
+          <h1 class="section1-title" lang="en">Beauty <br> zone</h1>
+          <div class="buttom-container">
+            <button class="button" type="button">Замовити дзвінок</button>
           <p class="section1-subtitle">
-            Запишись та отримай безкоштовну консультацію нашого косметолога
+            Запишись та отримай безкоштовну <br> консультацію нашого косметолога
           </p>
-          <img
+          </div>
+            </div>
+              <img
             src="./image/backgroundsection-1.jpg"
             alt="background-for-section-1"
           />
         </div>
+        </div>
       </section>
       <section class="about" id="about">
         <div class="container">
-          <h2 class="section2-title">
+          <div class="about-container">
+            <div class="content-container">
+              <h2 class="section2-title">
             Перевтілюйтесь <span class="accent-section1">Beauty Zone!</span>
           </h2>
-          <p class="section2-subtitle">
+          <p class="section2-subtitle subtitle-section2 ">
             Наша косметологічна клініка пропонує вам професійні послуги з
             догляду за шкірою обличчя та тіла.
           </p>
@@ -71,17 +82,24 @@
             препарати допоможуть вам підтримувати свою красу та молодість. З
             нами краса назавжди!
           </p>
-          <img src="./image/womenbefore.jpg" alt="Women before procedure" />
-          <img src="./image/womenafter.jpg" alt="Same women after procedure" />
+            </div>
+          <div class="img-container">
+            <img class="img-section-2" src="./image/womenbefore.jpg" alt="Women before procedure" />
+          <img class="img-section-2" src="./image/womenafter.jpg" alt="Same women after procedure" />
+          </div>
+          </div>
         </div>
       </section>
       <section class="sections" id="why-people-choose-us">
         <div class="container">
-          <h2 class="section3-title">
+          <div class="section-3-container">
+            <h2 class="section3-title">
             Чому люди <span class="accent-section3">обирають нас</span>
           </h2>
-          <ul>
-            <li>
+          <div>
+            <ul class="whycontent-container">
+            <div class="card-container">
+              <li>
               <h3>
                 <img
                   src="./image/icon_for_section3.1.svg"
@@ -93,7 +111,9 @@
                 від 5 років
               </p>
             </li>
-            <li>
+            </div>
+            <div class="card-container">
+              <li>
               <h3>
                 <img
                   src="./image/icon_for_section3.2.svg"
@@ -105,7 +125,9 @@
                 перевірену часом
               </p>
             </li>
-            <li>
+            </div>
+            <div class="card-container">
+              <li>
               <h3>
                 <img
                   src="./image/icon_for_section3.3.svg"
@@ -117,7 +139,10 @@
                 переробити
               </p>
             </li>
+            </div>
           </ul>
+          </div>
+          </div>
         </div>
       </section>
       <section class="sections" id="our-procedures">
