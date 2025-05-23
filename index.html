@@ -14,7 +14,6 @@
           <a href="index.html" class="logo">
             <img src="./image/logobeautyzone.svg" alt="Logo Beauty Zone" />
           </a>
-
           <nav class="nav-menu">
             <ul class="header-menu">
               <li><a class="link" href="#about">Про нас</a></li>
@@ -23,21 +22,26 @@
               <li><a class="link" href="#contacts">Контакти</a></li>
             </ul>
           </nav>
-
           <ul class="header-contacts">
             <li>
-              <a href="tel:+380960000007">
-                <img src="./image/icon_tel.svg" alt="Телефон" />
+              <a href="#">
+                <svg class="header-contacts" width="32" height="32">
+                  <use href="./image/icons.svg#icon-tel"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./image/facebook_icon.svg" alt="Facebook" />
+                <svg class="header-contacts" width="32" height="32">
+                  <use href="./image/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./image/instagram_icon.svg" alt="Instagram" />
+                <svg class="header-contacts" width="32" height="32">
+                  <use href="./image/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -106,48 +110,47 @@
             </h2>
             <div>
               <ul class="whycontent-container">
-                <div class="card-container">
-                  <li>
-                    <h3>
-                      <img
-                        src="./image/icon_for_section3.1.svg"
-                        alt="icon for section 3.1"
-                      />
-                    </h3>
-                    <p class="section3-paragraph">
-                      Всі наші косметологи мають вищу медичну освіту та стаж
-                      роботи від 5 років
-                    </p>
-                  </li>
-                </div>
-                <div class="card-container">
-                  <li>
-                    <h3>
-                      <img
-                        src="./image/icon_for_section3.2.svg"
-                        alt="icon for section 3.2"
-                      />
-                    </h3>
-                    <p class="section3-paragraph">
-                      Використовуємо тільки професійне обладнання та косметику,
-                      перевірену часом
-                    </p>
-                  </li>
-                </div>
-                <div class="card-container">
-                  <li>
-                    <h3>
-                      <img
-                        src="./image/icon_for_section3.3.svg"
-                        alt="icon for section 3.3"
-                      />
-                    </h3>
-                    <p class="section3-paragraph">
-                      Наша мета - підкреслити переваги та приховати недоліки, а
-                      не переробити
-                    </p>
-                  </li>
-                </div>
+                <li>
+                  <h3>
+                    <svg class="card-icon" width="40" height="44">
+                      <use
+                        href="./image/icons.svg#icon-icon_for_section31"
+                      ></use>
+                    </svg>
+                  </h3>
+                  <p class="section3-paragraph">
+                    Всі наші косметологи мають вищу медичну освіту та стаж
+                    роботи від 5 років
+                  </p>
+                </li>
+
+                <li>
+                  <h3>
+                    <svg class="card-icon" width="43" height="33">
+                      <use
+                        href="./image/icons.svg#icon-icon_for_section32"
+                      ></use>
+                    </svg>
+                  </h3>
+                  <p class="section3-paragraph">
+                    Використовуємо тільки професійне обладнання та косметику,
+                    перевірену часом
+                  </p>
+                </li>
+
+                <li>
+                  <h3>
+                    <svg class="card-icon" width="43" height="36">
+                      <use
+                        href="./image/icons.svg#icon-icon_for_section33"
+                      ></use>
+                    </svg>
+                  </h3>
+                  <p class="section3-paragraph">
+                    Наша мета - підкреслити переваги та приховати недоліки, а не
+                    переробити
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
@@ -158,6 +161,11 @@
           <h2 class="section3-title">
             Наші <span class="accent-section4">процедури</span>
           </h2>
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./image/icons.svg#icon-Arrow-1"></use>
+            </svg>
+          </button>
           <ul>
             <li>
               <article>
@@ -187,6 +195,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./image/icons.svg#icon-Arrow-1"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="sections" id="contacts">
@@ -258,7 +271,29 @@
                 Україна, м. Київ, вул. Тараса Шевченка 5
               </a>
             </li>
-            <li class="footer-social">
+            <li>
+              <a href="#">
+                <svg class="adress-icon" width="32" height="32">
+                  <use href="./image/icons.svg#icon-tel"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="adress-icon" width="32" height="32">
+                  <use href="./image/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="adress-icon" width="32" height="32">
+                  <use href="./image/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <!-- <li class="footer-social">
               <a href="tel:+380960000007">
                 <img src="./image/icon_tel.svg" alt="Іконка телефону" />
               </a>
@@ -268,7 +303,7 @@
               <a href="#" aria-label="Instagram">
                 <img src="./image/instagram_icon.svg" alt="Instagram" />
               </a>
-            </li>
+            </li> -->
           </ul>
         </address>
         <a
